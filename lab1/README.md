@@ -1,5 +1,6 @@
+# Graphs
 ![avatar](https://github.com/zih-an/visualization/raw/master/lab1/graphs.png)
-## Illustration
+# Illustration
 #### Use 1.csv
 - 1.js: stacked bar chart with legend
 - 2.js: heatmap with tooltip
