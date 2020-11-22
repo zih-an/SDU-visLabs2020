@@ -1,5 +1,6 @@
 # Squarified Treemaps
 本次实验复现了论文`Squarified Treemaps`的算法，将层次结构可视化为宽高比适宜的矩形划分图
+源代码(source code)：stm.cpp
 
 ## 实验环境
 - windows10
