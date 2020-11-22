@@ -17,12 +17,12 @@
 
 <div>
 <div align="center" style="display:inline-block;">
-    <div><img width="300" height="200" src="image_note.png"></div>
+    <div><img width="300" height="200" src="images/image_note.png"></div>
     <div><p>实现效果</p></div>
 </div>
 
 <div align="center" style="display:inline-block;">
-    <div><img width="300" height="200" src="thesis_layout.png"></div>
+    <div><img width="300" height="200" src="images/thesis_layout.png"></div>
     <div><p>论文原图</p></div>
 </div>
 </div>
@@ -30,10 +30,12 @@
 ### 交换测试数据顺序进行测试
 为验证矩形面积顺序对可视化效果的影响，将上述测试数据顺序进行调整并查看效果
 - 数据：`{ 4,6,6,3,2,2,1 };`
-    <img width="300" height="200" src="Inkedseq1.jpg">
+    
+    <img width="300" height="200" src="images/Inkedseq1.jpg">
 
 - 数据：`{ 4,6,2,3,2,6,1 };`
-    <img width="300" height="200" src="Inkedseq2.jpg">
+    
+    <img width="300" height="200" src="images/Inkedseq2.jpg">
 
 ## 可视化思路
 ### 图像的绘制
