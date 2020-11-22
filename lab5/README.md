@@ -22,7 +22,7 @@
 </div>
 
 <div align="center" style="display:inline-block;">
-    <div><img width="300" height="200" src="images/thesis_layout.png"></div>
+    <div><img width="300" height="200" src="images/thesis_layout.PNG"></div>
     <div><p>论文原图</p></div>
 </div>
 </div>
