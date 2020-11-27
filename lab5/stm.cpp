@@ -1,6 +1,4 @@
-/* Squarified Treemaps
- * 201800130112 утвс╨╜
-*/
+/* Squarified Treemaps */
 
 #include <GLFW/glfw3.h>
 #include<vector>
