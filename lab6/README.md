@@ -33,12 +33,12 @@ MathJax = {
 ## 可视化效果 
 <div>
 <div align="center" style="display:inline-block;">
-    <div><img width="300" height="270" src="layout1-1.png"></div>
+    <div><img width="300" height="270" src="images/layout1-1.png"></div>
     <div><p>data-big</p></div>
 </div>
 
 <div align="center" style="display:inline-block;">
-    <div><img width="300" height="270" src="layout1-2.png"></div>
+    <div><img width="300" height="270" src="images/layout1-2.png"></div>
     <div><p>data-small</p></div>
 </div>
 </div>
@@ -68,6 +68,7 @@ $$
 ### 加速策略
 - 使用多级引力代替斥力
     + 根据课堂PPT内容，使用不同的引力替换斥力，省略斥力的计算。即，第一层邻居引力原长为`L`，第二层为`2*L`，第三层为`3*L`...以此类推。此方案在没有太多条边的情况下，引力本身较少，计算量一定会远少于`O(n^2)`
+- 在位置更新比较`displacementSquared`和`MAX_DIS_SQUARED`大小时，使用平方比较，之后再开方
 - 根据现有论文资料，经过整理有GEM布局算法、KK布局算法、FR布局算法等。
 
 本次实验给出使用多级引力代替斥力的实现，并给出与原算法的对比。
@@ -76,7 +77,7 @@ $$
 
 ## 技术实现
 ### 算法伪代码
-<img src="pseudo-code.png" width="550" height="430"></img>
+<img src="images/pseudo-code.png" width="550" height="430"></img>
 
 ### 斥力(Fepulsive Force)的模拟实现
 ```javaScript
@@ -282,12 +283,12 @@ function spring_multi(nodes, edges) {
 <div>
 <div align="center" style="display:inline-block;">
     <div><p>未加速</p></div>
-    <div><img width="300" height="1100" src="layout2-1.png"></div>
+    <div><img width="300" height="1100" src="images/layout2-1.png"></div>
 </div>
 
 <div align="center" style="display:inline-block;">
     <div><p>加速</p></div>
-    <div><img width="300" height="1100" src="layout2-2.png"></div>
+    <div><img width="300" height="1100" src="images/layout2-2.png"></div>
 </div>
 </div>
 
